@@ -1,0 +1,97 @@
+body
+{
+	background:linear-gradient(to top, #7a0026, black);
+}
+
+.deco
+{
+	float:left;
+	margin-right:-730px;
+}
+
+.grappe
+{
+	float:left;
+	margin-left:-375px;
+	margin-top: -5px;
+}
+
+.logo
+{
+	float:left;
+	padding-left:58px;
+	padding-top:81px;
+	
+}
+
+.maj
+{
+	font-size:30px;
+}
+
+.rouge 
+{
+	color :#7a0026;
+}
+
+.jaune
+{
+	color: f4dca9;
+}
+
+
+.intro
+{
+	float:left;
+	padding-left:10px;
+	padding-top:125px;
+	margin-right:-150px;
+	margin-bottom:-150;
+}
+
+.bouteille
+{
+
+	float: left;
+    margin-top: 365px;
+    margin-left: -75px;
+
+}
+
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+	color: white;
+	text-align:right;
+	
+}
+
+.message-box
+{
+	height: 150px;
+}
+
+input 
+{
+	background-color:#b88091;
+	border-radius:5px;
+	width:400px;
+}
+
+textarea
+{
+	background-color:#b88091;
+	border-radius:5px;
+	width:400px;
+}
+
+.formulaire
+{
+	float: left;
+    padding-left: 0px;
+    padding-top: 429px;
+    margin-left: -752px;
+}
+

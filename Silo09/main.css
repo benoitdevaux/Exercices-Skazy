@@ -1,0 +1,303 @@
+html {
+    font-size: 62.5%;
+}
+
+.primary {
+    color: #eee;
+}
+
+.secondary {
+    color: #7fd3ff;
+}
+
+.tertiary {
+    color: #5f4825;
+}
+
+.pattern {
+    display: grid;
+    grid-template-columns: .1fr 2fr;
+    grid-template-rows: .1fr 1fr .1fr;
+}
+
+.header {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-bottom: .5rem solid #000;
+}
+
+.header img {
+    border-right: .1rem solid #5f4825;
+    margin: 0 0 -7%;
+}
+
+.header h2 {
+    padding: 0 0 30% 8%;
+    margin: 0 0 -30%;
+    font-size: 5rem;
+}
+
+.header h3 {
+    padding: 0 0 5% 8%;
+    margin: 0 0 -4%;
+    font-size: 1.5rem;
+
+}
+
+.header p {
+    display: block;
+    text-align: right;
+    padding-right: 10%;
+    font-size: 1.3rem;
+}
+
+main {
+    background: url("image_cinq/icone.jpg") no-repeat 0 75%, left;
+    background-size: 16%;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    font-size: 125%;
+    grid-template-columns: .2fr .5fr .5fr .5fr;
+    grid-template-rows: repeat(4, .1fr) 1fr;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    padding-top: 1%;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.nav {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.sidebar {
+    margin: 0 0 -30%;
+    font-size: 2rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.sidebar ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+
+.sidebar li {
+    display: flex;
+    align-items: baseline;
+    border-bottom: .1rem dotted #000;
+}
+
+.sidebar li:before {
+    content: "";
+    border-color: transparent #7fd3ff;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: inline-block;
+}
+
+.sidebar a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    padding: .5rem 4rem 1rem 2rem;
+
+}
+
+.banner {
+    border: .1rem solid;
+    background: linear-gradient(to bottom, #0087cd, #00a8ff);
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.banner h1 {
+    padding: 0 0 0 2%;
+}
+
+.box--long {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.block--top {
+    border: .1rem solid #eee;
+    border-radius: 1rem;
+    padding: 0 0 20%;
+    background-color: #eee;
+    font-size: 1.5em;
+}
+
+.block--top h2 {
+    border-bottom: .1rem solid #000;
+    padding: 0 0 0 2%;
+}
+
+.block--top img {
+    width: 3%;
+    margin-right: 1%;
+}
+
+.block--mid {
+    border: .1rem solid #000;
+    border-radius: 2rem;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 0 0 20%;
+    font-size: 1.5em;
+}
+
+.block--mid img {
+    margin: -20% 0 -21% -3%;
+}
+
+.block--mid h2 {
+    text-decoration: underline;
+    padding: 10% 0 0 50%;
+    margin: 0 0 -10%;
+}
+
+.box--small {
+    font-size: 125%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box--small h2 {
+    background: url("image_cinq/frise.png") center right no-repeat, linear-gradient(to right, #fff, #a1dfff);
+    margin: 0 10% 0 0;
+    background-size: contain;
+    border-bottom: .2rem solid #000;
+}
+
+.box--small ul {
+    list-style: none;
+}
+
+.box--small li:before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-color: #00A8FF;
+    transform: rotate(45deg)
+}
+
+.box--small a {
+    display: block;
+    text-align: right;
+}
+
+.block--leftBottom {
+    border-right: .1rem solid #000;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.block--rightBottom {
+    padding: 0 0 0 10%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+.block--rightBottom ul {
+    margin: 3% 0 11%;
+}
+
+.link {
+    text-align: justify;
+    margin: 0 2% 0;
+    color: #00a8ff;
+}
+
+.pin {
+    margin: 0 0 -3%;
+}
+
+.box--side {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    font-size: 1.4rem;
+
+}
+
+.box--sideHeader {
+    padding: 5% 0 5%;
+    border-bottom: .1rem;
+    background: linear-gradient(to bottom, #0087cd, #00a8ff);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    text-decoration: underline #fff;
+}
+
+.box--sideMain {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #eee;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    min-height: 65%;
+}
+
+.news {
+    flex: 1 1 auto;
+    text-align: justify;
+    padding: 0 10% 0;
+
+}
+
+.news h3 {
+    color: #00a8ff;
+    font-size: 1.5em;
+}
+
+.news p {
+    line-height: 3rem;
+    font-size: 1.5em;
+    flex: 1 1 content;
+}
+
+
+.pics {
+    justify-content: flex-end;
+
+}
+
+.pics h3 {
+    background: url("image_cinq/reverse_frise.png") no-repeat #89d7ff;
+    background-size: contain;
+    font-size: 1.5em;
+    padding-left: 5%;
+    margin: 0 5% -2% 5%;
+}
+
+.dayPic {
+    padding: 5% 0 0 1%;
+    width: 100%;
+}
+
+footer {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

@@ -1,0 +1,243 @@
+body
+{
+	background-color: #1f3353;
+}
+
+.bandeau
+{
+	background: linear-gradient(to right, #1072db, white);
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	height:140px;
+	width: 825px;
+}
+
+.bandeau h1
+{
+	margin-bottom:-28px;
+    float: left;
+    opacity: 0.3;
+    font-size: 122px;
+	margin-top: -18px
+}
+
+.bandeau p 
+{
+	color: #a8b5cb;
+    margin: auto;
+    padding-left: 18px;
+    font-size: 20px;
+    padding-top: 6px;
+}
+
+.bandeau img
+{
+	float:right;
+	margin:auto;
+	width:108px;
+	margin-top : -23px;
+	margin-right: 15px;
+}
+
+.corps
+{
+	background-color: white;
+	width:825px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	margin-top:-16px;
+}
+
+
+.actualite
+{
+	background-color:#e5e9ee;
+	height:auto;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align:justify;
+
+}
+
+.grid
+{
+	display:grid;
+	grid-template-columns: 380px 380px;
+}
+
+.grid p
+{
+	padding-left:30px;
+}
+
+.actualite table
+{
+	padding:15px;
+	text-align: justify;
+}
+
+.actualite strong
+{
+	font-size : 18;
+}
+
+.actualite padding
+{
+	width:50px;
+}
+
+
+.cat_ent
+{
+	border-left:solid;
+	border-width:18px;
+	color:#c68317;
+}
+
+.cat_env
+{
+	border-left:solid;
+	border-width:18px;
+	color:#7d9f13;
+}
+
+.cat_tour
+{
+	border-left:solid;
+	border-width:18px;
+	color:#1867b8;
+}
+
+.cat_ps
+{
+	border-left:solid;
+	border-width:18px;
+	color:#5e86c6;
+}
+
+.cat_ss
+{
+	border-left:solid;
+	border-width:18px;
+	color:#087fac;
+}
+
+.cat_jeune
+{
+	border-left:solid;
+	border-width:18px;
+	color:#db8700;
+}
+
+.jonction
+{
+	margin-top:15px;
+	width:auto;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.jonction img
+{
+	
+	width:796;
+}
+
+.resume
+{
+	background-color: #f4d8ac;
+	width:auto;
+	margin-left: 15px;
+	margin-right: 15px;
+	height:auto;
+}
+
+.resume p 
+{	
+
+	padding-left:14px;
+}
+
+.rubrique
+{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+
+
+.environnement strong
+{
+	color: #7d9f13;
+	border-left: solid;
+	border-left-color:#7d9f13;
+	border-left-width:10px;
+}
+
+.culture strong
+{
+	color: #7723cd;
+	border-left: solid;
+	border-left-color:#7723cd;
+	border-left-width:10px;
+}
+
+.jeunes strong
+{
+	color: #db8700;
+	border-left: solid;
+	border-left-color:#db8700;
+	border-left-width:10px;
+}
+
+.entreprises strong
+{
+	color: #c68317;
+	border-left: solid;
+	border-left-color:#c68317;
+	border-left-width:10px;
+}
+
+.emploi strong
+{
+	color: #be1616;
+	border-left: solid;
+	border-left-color:#be1616;
+	border-left-width:10px;
+}
+
+.lien
+{
+	margin-top:5px;
+	margin-right:50px;
+	color: #be1616;
+	margin-bottom:10px;
+}
+
+.lien p
+{
+	text-align:right;
+}
+
+.pied 
+{
+	padding-top:3px;
+	padding-bottom:3px;
+	width: auto;
+	height: auto;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: #f6ce58;
+}
+
+.pied p
+{
+	color:#793939;
+	text-align:center;
+}

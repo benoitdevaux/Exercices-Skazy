@@ -1,0 +1,130 @@
+body
+{
+	background-color : d2eb99;
+}
+
+.corps
+{
+
+	background-color: #fff;
+    margin: -15px auto 50px auto;
+    width: 825px;	
+    height: 1000px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+
+.corps h2
+{
+	color : 149600;
+	padding-top:50px;
+	padding-left : 40px;
+}
+
+.bandeau
+{
+	margin-left: auto;
+	margin-right:auto;
+	width:831px;
+}
+
+.bandeau img
+{
+	margin-top: 50px;
+	width:828px;
+}
+
+.agenda
+{
+	color: 149600;
+}
+
+.agenda_gauche 
+{
+	float: left;
+    width: 338px;
+	padding-left: 40px;
+}
+.agenda_droite
+{
+	float:right;
+	padding-right: 40px
+}
+
+
+.article
+{
+	margin-top:334px;
+	text-align: justify;
+}
+
+.article p
+{
+	color: 169210
+}
+
+.sejour h3
+{
+	color:#6e4522;
+}
+
+.info_partic
+{
+	float: left;
+	width:215px;
+	padding-left: 40px;
+}
+
+.info_partic h3
+{
+	color:#6e4522;
+	padding-top:20px;
+}
+
+.sejour
+{
+	float: left;
+	width: 215px;
+	padding-left:50px;
+}
+
+.decouverte
+{
+	float: right;
+	width:215px;
+	padding-right: 50px;
+}
+
+.decouverte h3
+{
+	color:#6e4522;
+	padding-top:20px;
+}
+
+.pass
+{	
+	width:400px;
+	margin-top:50px;
+	padding-left:40px;
+	float:left;
+}
+
+.pass img
+{
+	width:135px;
+}
+
+.logo
+{
+	width:400px;
+	float:right;
+	padding-right:40px;
+	margin-top:-64px;
+}
+
+.logo img
+{
+	width:400px;
+
+}

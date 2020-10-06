@@ -1,0 +1,172 @@
+.bandeau
+{
+	height: 125px;
+	background-color: #eee;
+}
+
+.bandeau img
+{
+	padding-left: 10px;
+}
+
+.presentation img
+{
+	padding-top: 12px;
+	padding-left:15px;
+}
+
+.presentation
+{
+	margin-left:10px;
+	margin-right: 10px;
+	text-align:justify;
+}
+
+.corp
+{
+	margin : 0 auto;
+	width: 500px;
+	border: 1px solid #eee;
+	text-align:justify;
+}
+
+.article
+{
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+.titre
+{
+	padding-left:20px;
+}
+
+.nouveaux_membre
+{
+	padding-bottom:25px;
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+.nouveaux_membre a
+{
+	float:right;
+}
+
+.activite
+{
+	padding-bottom:25px;
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+
+
+	
+.activite a
+{
+	float:right;
+}
+
+.coup_coeur
+{
+	padding-bottom:25px;
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+.coup_coeur a
+{
+	float:right;
+}
+
+.reportage
+{
+	padding-bottom:25px;
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+.reportage a
+{
+	float:right;
+}
+
+.evenement
+{
+	padding-bottom:25px;
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+.evenement a
+{
+	float:right;
+}
+.recette
+{
+	padding-bottom:25px;
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+.recette a
+{
+	float:right;
+}
+
+.pied
+{
+	padding-bottom:1px;
+	height:25x;
+	line-height: 150%;
+	background-color:eeeeee;
+	text-align:center;
+	padding-top:3px;
+}
+
+
+.green_title
+{
+	border-bottom: 1px solid #eee;
+	border-bottom-color:587d4b;
+	background-color: e4eae2;
+}
+.blue_title
+{
+	padding-right:150px;
+	border-bottom: solid;
+	border-bottom-color: 447591;
+	background-color:b4c8d3;
+
+}
+
+.orange_title
+{
+	border-bottom: solid;
+	border-bottom-color: f1864a;
+	background-color:fdece2;
+}
+
+.desc
+{
+	padding-left: 150px;
+	text-align: justify;
+}
+
+.images
+{
+	padding-top:16px;
+	float: left;
+	size: 150px;
+}
+
+.info
+{
+	text-align:center;
+}
+
+a
+{
+	color:dd7d01;
+}
