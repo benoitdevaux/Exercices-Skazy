@@ -1,0 +1,15 @@
+parameters:
+  level: 5
+  paths:
+    - ../form_mvc
+
+  excludes_analyse :
+    - node_modules
+    - vendor
+    - composer-setup.php
+
+  checkMissingIterableValueType : false
+
+  bootstrapFiles :
+    - Config.php
+

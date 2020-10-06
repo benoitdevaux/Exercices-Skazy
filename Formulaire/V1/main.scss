@@ -1,0 +1,131 @@
+$color-primary: #363636;
+$color-secondary: #fff;
+$color-tertiary: #a5a5a5;
+$color-back: #000;
+$font: 'Rubik', sans-serif;
+$breakpoint-phone: 767px;
+$breakpoint-tablet: 1025px;
+
+html {
+    font-size: 62.5%;
+
+}
+
+.l-pattern {
+    background: $color-primary;
+    width: 100%;
+    max-width: 55rem;
+    margin: auto;
+    box-shadow: 1rem 1rem 2rem $color-tertiary;
+    height: 100%;
+    font-family: $font;
+
+    @media (max-device-width: $breakpoint-phone) {
+        max-width: initial;
+    }
+
+    &__inner {
+        font-size: 1.75rem;
+        color: $color-secondary;
+        margin: 2rem;
+
+        @media (max-device-width: $breakpoint-phone) {
+            font-size: 2rem;
+        }
+    }
+
+}
+
+.l-header {
+    &__title {
+        font-size: 3rem;
+        text-align: center;
+        color: $color-secondary;
+        font-weight: 700;
+        padding-top: 2rem;
+    }
+}
+
+.l-main {
+    display: flex;
+    justify-content: center;
+    font-size: 1.75rem;
+    color: $color-secondary;
+}
+
+.o-form {
+    color: $color-secondary;
+
+    &__main {
+        font-size: 1.75rem;
+        display: inline-block;
+    }
+
+    &__label {
+        margin-bottom: 2rem;
+    }
+
+    &__rgpd {
+        display: block;
+        margin: 2rem 0;
+        max-width: 50rem;
+    }
+
+    &__button {
+        padding: 1.5rem 5rem;
+        border-radius: 3rem;
+        background: linear-gradient(45deg, $color-secondary 10%, $color-tertiary 30%, $color-back 80%);
+        color: $color-secondary;
+        border-width: 0;
+        margin: 2rem 0;
+    }
+
+    &__input {
+        display: block;
+        margin: 1rem 0 1.5rem;
+        border: none;
+        border-bottom: .2rem solid $color-tertiary;
+        background: $color-primary;
+        color: $color-secondary;
+        font-size: 1.55rem;
+
+        &:focus {
+            outline: none;
+            border-bottom: .5rem solid $color-tertiary;
+        }
+    }
+}
+
+.c-mail {
+    width: 100%;
+    max-width: 35rem;
+}
+
+.g-recaptcha {
+    margin-top: 1.5rem;
+}
+
+.c-thanks {
+
+    line-height: 1.6;
+
+    &__text {
+        margin: auto;
+    }
+
+    &__contact {
+        margin: 2rem 0;
+    }
+}
+
+.u-cap {
+    text-transform: uppercase;
+}
+
+.c-link {
+    color: $color-tertiary;
+}
+
+.error {
+    color: #ff0004;
+}

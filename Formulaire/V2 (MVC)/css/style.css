@@ -1,0 +1,136 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+
+.l-pattern {
+  background: #363636;
+  width: 100%;
+  max-width: 55rem;
+  margin: auto;
+  box-shadow: 1rem 1rem 2rem #a5a5a5;
+  height: 100%;
+  font-family: "Rubik", sans-serif;
+}
+@media (max-device-width: 767px) {
+  .l-pattern {
+    max-width: initial;
+  }
+}
+.l-pattern__inner {
+  font-size: 1.75rem;
+  color: #fff;
+  margin: 2rem;
+}
+.l-pattern__inner ul li a span {
+  font-size: 4rem;
+  width: 0;
+}
+@media (max-device-width: 767px) {
+  .l-pattern__inner {
+    font-size: 2rem;
+  }
+}
+
+.l-header__title {
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  padding-top: 2rem;
+}
+
+.l-main {
+  display: flex;
+  justify-content: center;
+  font-size: 1.75rem;
+  color: #fff;
+}
+
+.o-form {
+  color: #fff;
+}
+.o-form__main {
+  font-size: 1.75rem;
+  display: inline-block;
+}
+.o-form__label {
+  margin-bottom: 2rem;
+}
+.o-form__rgpd {
+  display: block;
+  margin: 2rem 0;
+  max-width: 50rem;
+}
+.o-form__button {
+  padding: 1.5rem 5rem;
+  border-radius: 3rem;
+  background: linear-gradient(45deg, #fff 10%, #a5a5a5 30%, #000 80%);
+  color: #fff;
+  border-width: 0;
+  margin: 2rem 0;
+}
+.o-form__checkbox {
+  display: none;
+}
+.o-form__checkbox + .c-label--check::before {
+  content: "";
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background: #fff;
+}
+.o-form__checkbox:checked + .c-label--check::before {
+  content: "✓";
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  background: #7aa100;
+}
+.o-form__input {
+  display: block;
+  margin: 1rem 0 1.5rem;
+  border: none;
+  border-bottom: 0.2rem solid #a5a5a5;
+  background: #363636;
+  color: #fff;
+  font-size: 1.55rem;
+}
+.o-form__input:focus {
+  outline: none;
+  border-bottom: 0.5rem solid #a5a5a5;
+}
+
+.c-mail {
+  width: 100%;
+  max-width: 35rem;
+}
+
+.g-recaptcha {
+  margin-top: 1.5rem;
+}
+
+.c-thanks {
+  line-height: 1.6;
+}
+.c-thanks__text {
+  margin: auto;
+}
+.c-thanks__contact {
+  margin: 2rem 0;
+}
+
+.u-cap {
+  text-transform: uppercase;
+}
+
+.c-link {
+  color: #a5a5a5;
+}
+
+.error {
+  color: #ff0004;
+}
+
+/*# sourceMappingURL=style.css.map */
